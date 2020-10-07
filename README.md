@@ -9,12 +9,10 @@ Changes from the original:
 
 ## Installation
 
-In your `package.json` include:
+First, install the package:
 
-```json
-dependencies: {
-  "electron-cookies": "heap/electron-cookies"
-}
+```bash
+npm install heap/electron-cookies
 ```
 
 Then in your app's renderer code, require the package:
