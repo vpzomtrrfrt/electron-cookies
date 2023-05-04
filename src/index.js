@@ -1,5 +1,5 @@
 const tough = require('tough-cookie');
-const WebStorageCookieStore = require('tough-cookie-web-storage-store');
+const WebStorageCookieStore = require('./tough-cookie-web-storage-store');
 
 const { Cookie } = tough;
 
